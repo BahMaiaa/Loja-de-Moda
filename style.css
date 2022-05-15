@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Bebas+Neue&family=Ms+Madi&family=Roboto:wght@100;300&family=Square+Peg&display=swap");
+
+.frete {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  gap: 20px;
+  justify-content: center;
+  background-color: pink;
+}
+.ft1 {
+  color: white;
+  margin: 10px 220px 0px 70px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+.ft1 a {
+  color: white;
+  text-decoration: none;
+}
+.ft2 {
+  color: white;
+  margin: 30 0 0 80px;
+  font-family: "Bebas Neue", cursive;
+  justify-content: center;
+}
+
+.ft2 span {
+  font-size: 28px;
+  color: rgb(238, 43, 118);
+  padding: 10px;
+  margin: 4px;
+}
+
+.ft3 {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.ft3 a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 500px 700px;
+  background-color: rgb(250, 250, 250);
+  padding: 5px;
+}
+.categorias {
+  display: grid;
+  margin: 20px 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.categorias a {
+  color: black;
+  padding: 5px px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.icones {
+  margin: 10px 5px 0 550px;
+}
+.icones img {
+  max-width: 35px;
+  padding: 5px;
+}
+.logo {
+  background-color: white;
+  padding: 20px;
+}
+.logo h1 {
+  margin: 30px 30px 30px 530px;
+  font-size: 50px;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: white;
+}
+.desconto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px;
+  margin: 20px 20px;
+  background-color: rgb(250, 250, 250);
+}
+.desc a {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+.sessaocat {
+  margin: 50px 0 0 400px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.caixacateg {
+  padding: 10px;
+}
+
+.categorias2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.categ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  background: pink;
+}
+.categ img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 15px;
+}
+.categ a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  color: black;
+}
+.sessaodesconto {
+  margin: 40px 430px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.card a {
+  background: black;
+}
+.card h5 {
+  color: rgb(245, 45, 78);
+}
+.caixadesc {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 30px;
+}
+.sessaocontatos {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 60px;
+  margin: 20px 20px;
+  background-color: rgb(250, 250, 250);
+}
+.caixacontatos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+}
+
+.caixacontatos a {
+  color: grey;
+}
+
+.redes {
+  padding: 30px;
+}
+
+.rd1 img {
+  max-width: 30px;
+}
+
+.rd2 img {
+  max-width: 20px;
+  margin: 0 5px;
+}
+.rd3 img {
+  max-width: 25px;
+  margin: 0 4px;
+}
+
+.redes a {
+  color: black;
+}
+/* pagina de produtos*/
+.sessaocamiseta {
+  background: rgb(250, 250, 250);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  justify-content: center;
+}
+
+.btcamiseta {
+  padding: 10px;
+  margin: 0 auto;
+}
+.btcamiseta a {
+  background: rgb(238, 43, 118);
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.caixatshi img {
+  max-width: 180px;
+}
+.caixatshi h5 {
+  font-size: 15px;
+}
+.sessao1 {
+  display: grid;
+  margin: 20px 0;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.sessao2 {
+  display: grid;
+  margin: 20px 0;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.sessao3 {
+  display: grid;
+  margin: 20px 0;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.sessao4 {
+  display: grid;
+  margin: 20px 0;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+/* pagina de compra*/
+.caixa1 {
+  background: rgb(250, 250, 250);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 10px 10px;
+}
+.produtofoto {
+  padding: 40px;
+  margin: 20px 40px;
+}
+.produtofoto {
+  padding: 40px;
+  margin: 20px 20px;
+}
+
+.produtodescri {
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.descr1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.descr1 img {
+  max-width: 100px;
+}
+.descr1 h5 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  margin: 20px 20px;
+}
+.descr2 {
+  background: rgb(245, 242, 242);
+  padding: 10px;
+}
+.descrcor {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px;
+  margin: 10px 30px;
+}
+.colordesc1 a {
+  background-color: aqua;
+  color: aqua;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+.colordesc2 a {
+  background-color: cornsilk;
+  color: cornsilk;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+.colordesc3 a {
+  background-color: brown;
+  color: brown;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+.colordesc4 a {
+  background: purple;
+  color: purple;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+.tamanhoss h6 {
+  margin: 20px 20px;
+}
+
+.taman {
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px;
+  margin: 40px;
+  padding: 30px;
+}
+.tam a {
+  background-color:rgb(165, 158, 158)
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.compraproduto {
+  background-color: black;
+  color: white;
+  padding: 20px 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+}
